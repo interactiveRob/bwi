@@ -432,6 +432,7 @@ add_shortcode('recent_posts', 'shapeSpace_recent_posts_shortcode');
 // add_shortcode( 'covid_page', 'covid_page' );
 
 function get_hud(){
+    $ret_hud = '';
     $ret_hud .= '<div class="">';
 $ret_hud .= '<div class="hud">';
 $ret_hud .= '<div class="hud_item hud_item_1 hud_item_flights">';
@@ -904,7 +905,8 @@ function ur_theme_start_session()
     if (!session_id())
         session_start();
 }
-add_action("init", "ur_theme_start_session", 1);
+//start session on the earliest hook, avoid headers sent error
+add_action("muplugins_loaded", "ur_theme_start_session", 1);
 
 
 //  function test() {
@@ -930,3 +932,31 @@ function add_the_table_plugin( $plugins ) {
       return $plugins;
 }
 add_filter( 'mce_external_plugins', 'add_the_table_plugin' );
+
+// function BwiGetCrossenvParkingData(){
+//     $dest = get_template_directory() . "/cache/parking-xml/";
+//     $liveDir = "https://bwiairport.com/wp-content/themes/bwitheme/cache/parking-xml/";
+	
+// 	$files = [
+// 		"Hourly" => "hourly.xml",
+// 		"Daily" => "daily.xml",
+// 		"Express" => "express.xml",
+// 		"Long-Term A" => "long-term.xml",
+// 		"Long-Term B" => "long-termb.xml"
+// 	];
+
+//     array_map(function($file) use ($liveDir, $dest){
+//         $url = $liveDir . $file;
+
+//         $curl = curl_init($url);
+//         curl_setopt($curl, CURLOPT_URL, $url);
+//         curl_setopt($curl, CURLOPT_HEADER, false);
+//         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+
+//         $response = curl_exec($curl);
+//         curl_close($curl);
+
+//         file_put_contents($dest . $file, $response);
+//     }, $files);
+// }
+// BwiGetCrossenvParkingData();

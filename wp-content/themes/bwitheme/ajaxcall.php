@@ -1,4 +1,5 @@
 <?php
+    $themeRootDirectory = __DIR__;
 
     $action  = '';
     if(isset($_GET['action']) && $_GET['action'] != ""){
@@ -9,7 +10,6 @@
         case 'get_flights_data':{
 
              $siteRootDir =  isset($_POST['siteRootDir']) ? $_POST['siteRootDir'] : '' ;    
-             $themeRootDirectory = isset($_POST['themeRootDir']) ? $_POST['themeRootDir'] : '' ;
              $hudArrivalDeparture = isset($_POST['hud_arrival_depature']) ? $_POST['hud_arrival_depature'] : '' ;  
             
              $filePath = $themeRootDirectory.'/cache/flight-data.json'.'?' .uniqid().'1';
@@ -268,8 +268,7 @@
         }
 
         case 'get_flight_details':{
-            
-             $themeRootDirectory = isset($_POST['themeRootDir']) ? $_POST['themeRootDir'] : '' ;
+        
              $hudArrivalDeparture = $_POST['hud_arrival_depature'];  
              $arraykey = $_POST['arrayIndex'];
              
@@ -294,7 +293,6 @@
 
         case 'get_parking_data':{
 
-            $themeRootDirectory = $_POST['themeRootDir'];
 
             $parkingData = file_get_contents($themeRootDirectory.'/cache/parking-availability.json');   
             $parkingAvail = json_decode($parkingData); 
@@ -311,8 +309,6 @@
 
         case 'get_hud_data':{
 
-            $themeRootDirectory = $_POST['themeRootDir'];
-
             $hudData = file_get_contents($themeRootDirectory.'/cache/hud-data.json');   
             $flightDates = json_decode($hudData); 
            
@@ -327,8 +323,6 @@
         }
 
         case 'get_waitTimes_data':{
-           
-            $themeRootDirectory = $_POST['themeRootDir'];
 
             $waitTimes = file_get_contents($themeRootDirectory.'/cache/wait-times.json'); 
             $waitTimes = json_decode($waitTimes); 

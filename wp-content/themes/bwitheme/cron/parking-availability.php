@@ -1,5 +1,4 @@
 <?php
-	
 	$root = str_replace("cron/parking-availability.php", "", __FILE__);
 	$dir = $root."cache/parking-xml/";
 	

@@ -176,8 +176,8 @@ a.nav_arrows svg {
 <div class="my-slider-main">
   <div class="slideshow-container">
     <?php foreach ($slides as $slide) {
-      $img = $slide['image']['url'];
-      $video = $slide['video']['url'];
+      $img = is_array($slide['image']) ? $slide['image']['url'] : null;
+      $video = is_array($slide['video']) ? $slide['video']['url'] : null;
       $link = $slide['link'];
       $sub_caption = $slide['sub_caption'];
     ?>
@@ -1006,8 +1006,8 @@ button#slick-slide-control00 {
 <div class="container-fluid">
     <div class="row responsive">
         <?php foreach($slides as $slide ){ 
-            $img = $slide['image']['url'];
-            $video = $slide['video']['url'];
+            $img = is_array($slide['image']) ? $slide['image']['url'] : null;
+            $video = is_array($slide['video']) ? $slide['video']['url'] : null;
             $link = $slide['link'];
             $sub_caption = $slide['sub_caption'];
         ?>

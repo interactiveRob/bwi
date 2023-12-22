@@ -5,7 +5,7 @@
 	$root = str_replace("cron/wait-times.php", "", __FILE__);
 	$file =	$root."cache/waittimes.xml";
 
-    $xml = simplexml_load_file($file);
+    $xml = simplexml_load_file(stripslashes($file));
     $rowData = json_decode(json_encode($xml),true);
     
     $json_array = [];
