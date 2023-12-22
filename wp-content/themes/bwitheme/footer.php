@@ -309,9 +309,8 @@ jQuery(document).ready(function($) {
             themeRootDir:THEMEROOTDIR,
         },
         function(response){
-
             var data = JSON.parse(response);
-
+            
             if(data.parkingAvailability){
 
                 $.each(data.parkingAvailability.lots,function(index,value){
@@ -321,26 +320,31 @@ jQuery(document).ready(function($) {
                     if(index == 'Daily'){
                         $('div.hud_parking_availability_daily .hud_parking_percent').text(value.percentage);
                         $('div.hud_parking_availability_daily .hud_parking_status').text(value.status);
+                        $('div.hud_parking_availability_daily .hud_parking_spaces').text(value.available);
                         $('div.hud_parking_availability_daily .hud_parking_status').addClass(value.class);
                     }
                     else if(index == 'Express'){
                         $('div.hud_parking_availability_express .hud_parking_percent').text(value.percentage);
                         $('div.hud_parking_availability_express .hud_parking_status').text(value.status);
+                        $('div.hud_parking_availability_express .hud_parking_spaces').text(value.available);
                         $('div.hud_parking_availability_express .hud_parking_status').addClass(value.class);
                     }
                     else if(index == 'Hourly'){
                         $('div.hud_parking_availability_hourly .hud_parking_percent').text(value.percentage);
                         $('div.hud_parking_availability_hourly .hud_parking_status').text(value.status);
+                        $('div.hud_parking_availability_hourly .hud_parking_spaces').text(value.available);
                         $('div.hud_parking_availability_hourly .hud_parking_status').addClass(value.class);
                     }
                     else if(index == 'Long-Term A'){
                         $('div.hud_parking_availability_longtermA .hud_parking_percent').text(value.percentage);
                         $('div.hud_parking_availability_longtermA .hud_parking_status').text(value.status);
+                        $('div.hud_parking_availability_longtermA .hud_parking_spaces').text(value.available);
                         $('div.hud_parking_availability_longtermA .hud_parking_status').addClass(value.class);
                     }
                     else if(index == 'Long-Term B'){
                         $('div.hud_parking_availability_longtermB .hud_parking_percent').text(value.percentage);
                         $('div.hud_parking_availability_longtermB .hud_parking_status').text(value.status);
+                        $('div.hud_parking_availability_longtermB .hud_parking_spaces').text(value.available);
                         $('div.hud_parking_availability_longtermB .hud_parking_status').addClass(value.class);
                     }
                 });
