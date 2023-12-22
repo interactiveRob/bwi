@@ -1,0 +1,40 @@
+{
+    "updated": "*as of <time>10:36pm</time>",
+    "lots": {
+        "Hourly": {
+            "available": 1753,
+            "class": "available",
+            "total": 5000,
+            "percentage": 35,
+            "status": "Available"
+        },
+        "Daily": {
+            "available": 3994,
+            "class": "available",
+            "total": 8400,
+            "percentage": 48,
+            "status": "Available"
+        },
+        "Express": {
+            "available": 602,
+            "class": "available",
+            "total": 1404,
+            "percentage": 43,
+            "status": "Available"
+        },
+        "Long-Term A": {
+            "available": 2913,
+            "class": "available",
+            "total": 5500,
+            "percentage": 53,
+            "status": "Available"
+        },
+        "Long-Term B": {
+            "available": 2471,
+            "class": "available",
+            "total": 4600,
+            "percentage": 54,
+            "status": "Available"
+        }
+    }
+}

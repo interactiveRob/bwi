@@ -1,0 +1,19 @@
+{
+  "name": "bwi-wordpress",
+  "version": "0.0.0",
+  "description": "BWI Wordpress site",
+  "author": "WeberShandwick",
+  "license": "© Copyrighted, All rights reserved",
+  "private": true,
+  "scripts": {
+    "pull-images-dev": "rsync -azuv bwi:sites/bwidev/wp-content/uploads ../../ --exclude=node_modules --exclude=.git",
+    "sync-db-dev": "yarn export-db-dev && yarn pull-db-dev && yarn import-db && yarn migrate-db",
+    "get-db-dev": "yarn export-db-dev && yarn pull-db-dev",
+    "export-db-dev": "ssh bwi 'cd sites/bwidev; wp db export bwidev.sql;'",
+    "pull-db-dev": "rsync -zv bwi:sites/bwidev/bwidev.sql ./ --progress",
+    "import-db": "wp db import ./bwidev.sql",
+    "migrate-db": "wp search-replace '//bwidev.wpenginepowered.com' '//bwi.local' --skip-columns=guid && wp search-replace 'http://' 'https://' --skip-columns=guid",
+    "pull-images": "rsync -azuv bwi:sites/bwidev/wp-content/uploads ./wp-content/ --progress",
+    "enter-shell-rob": "/Users/rob/Library/Application\\ Support/Local/ssh-entry/78qhfLp6s.sh"
+  }
+}
