@@ -31,19 +31,38 @@ add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 
 function theme_enqueue_styles() {
 
-wp_enqueue_style( 'custom-svg-style', get_stylesheet_directory_uri() . '/assets/bwiairport_format.css' );
+wp_enqueue_style( 'custom-svg-style', get_stylesheet_directory_uri() . '/assets/bwiairport_format.css' , null, '1.0.0');
 
 //wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/assets/custom.css' );
-wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/assets/custom.css',false,'all');
+wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/assets/custom.css',false,'1.0.0');
 
 
-wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/assets/innerpage.css' );
+wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/assets/innerpage.css', null, '1.0.0');
 
 //wp_register_script( 'custom-script', get_stylesheet_directory_uri() . '/assets/custom.js' );
 wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/1site_custom.js', array ( 'jquery' ), false);
 
 }
 
+add_action('wp_enqueue_scripts', function(){
+    $manifestFile = get_template_directory() . '/dist/manifest.json';
+    
+    if(!file_exists($manifestFile)) return;
+
+    $manifest = json_decode(file_get_contents($manifestFile));
+    
+    $manifest = [
+        'jsFilename' => $manifest->js,
+        'cssFilename' => $manifest->css,
+    ];
+    
+
+    if(!isset($manifest['jsFilename'])) return;
+    wp_enqueue_script( "bwi-theme-scripts", get_template_directory_uri() . "/dist/{$manifest['jsFilename']}", array(), '0.0.1', true );
+
+    if(!isset($manifest['cssFilename'])) return;
+    wp_enqueue_style( "bwi-theme-styles", get_template_directory_uri() . "/dist/{$manifest['cssFilename']}");
+}, 10);
 
 // Remove WP Version From Styles    
 

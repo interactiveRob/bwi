@@ -1,0 +1,21 @@
+.layout-capabilities {
+    margin: 8rem 0;
+
+    @include media(">=1024px") {
+        margin: 14rem 0;
+    }
+
+    &__cols {
+        margin: 8rem 0;
+
+        @include media(">=1024px") {
+            margin: 12rem 0;
+        }
+    }
+
+    .layout-two-col {
+        @include media(">=1024px") {
+            justify-content: space-between;
+        }
+    }
+}

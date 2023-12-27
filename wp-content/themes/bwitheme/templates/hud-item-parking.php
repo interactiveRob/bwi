@@ -10,63 +10,91 @@
 
             <table class="c-parking-status" width="100%" border="0" cellpadding="0" cellspacing="0">
                 <tr class="c-parking-status__row hud_parking_availability_inner hud_parking_availability_hourly">
-                    <td>
+                    <td class="c-parking-status__location">
                         <h4 class="hud_parking_type"><span class="hud_parking_type_inner">Hourly Garage</span></h4>
-                        <div class="hud_parking_spaces">
-
+                        <div class="hud_parking_spaces_info">
+                            <strong><span class="hud_parking_spaces"></span></strong> spaces available
                         </div>
                     </td>
-                    <td>
-                        <h6 class="hud_parking_status js-parking_class js-parking_status">Available</h6>
-                    </td>
-                    <td>
-                        <div class="hud_parking_details">
-                            <h5 class="hud_parking_percent js-parking_percent">0</h5>
+                    <td valign="top">
+                        <div class="c-parking-status__flex">
+                            <h6 class="hud_parking_status js-parking_class js-parking_status">Available</h6>
+                            <div class="hud_parking_details">
+                                <strong><span class="p_hud_parking_percent js-parking_percent"></span>%</strong> available
+                            </div>
                         </div>
                     </td>
                 </tr>
-            </table>
 
-            <div class="hud_parking_availability_inner hud_parking_availability_daily">
-                <h4 class="hud_parking_type"><span class="hud_parking_type_inner">Daily Garage</span></h4>
-                <div class="hud_parking_spaces">
-                    
-                </div>
-                <div class="hud_parking_details">
-                    <h5 class="hud_parking_percent js-parking_percent">0</h5>
-                </div>
-                <h6 class="hud_parking_status js-parking_class js-parking_status">Available</h6>
-            </div>
-            <div class="hud_parking_availability_inner hud_parking_availability_express">
-                <h4 class="hud_parking_type"><span class="hud_parking_type_inner">Express Parking</span></h4>
-                <div class="hud_parking_spaces">
-                    
-                </div>
-                <div class="hud_parking_details">
-                    <h5 class="hud_parking_percent js-parking_percent">0</h5>
-                </div>
-                <h6 class="hud_parking_status js-parking_class js-parking_status">Available</h6>
-            </div>
-            <div class="hud_parking_availability_inner hud_parking_availability_longtermA">
-                <h4 class="hud_parking_type"><span class="hud_parking_type_inner">Long Term Lot A</span></h4>
-                <div class="hud_parking_spaces">
-                    
-                </div>
-                <div class="hud_parking_details">
-                    <h5 class="hud_parking_percent js-parking_percent">0</h5>
-                </div>
-                <h6 class="hud_parking_status js-parking_class js-parking_status">Available</h6>
-            </div>
-            <div class="hud_parking_availability_inner hud_parking_availability_longtermB">
-                <h4 class="hud_parking_type"><span class="hud_parking_type_inner">Long Term Lot B</span></h4>
-                <div class="hud_parking_spaces">
-                    
-                </div>
-                <div class="hud_parking_details">
-                    <h5 class="hud_parking_percent js-parking_percent">0</h5>
-                </div>
-                <h6 class="hud_parking_status js-parking_class js-parking_status">Available</h6>
-            </div>
+                <tr class="c-parking-status__row hud_parking_availability_inner hud_parking_availability_daily">
+                    <td>
+                        <h4 class="hud_parking_type"><span class="hud_parking_type_inner">Daily Garage</span></h4>
+                        <div class="hud_parking_spaces_info">
+                            <strong><span class="hud_parking_spaces"></span></strong> spaces available
+                        </div>
+                    </td>
+                    <td valign="top">
+                        <div class="c-parking-status__flex">
+                            <h6 class="hud_parking_status js-parking_class js-parking_status">Available</h6>
+                            <div class="hud_parking_details">
+                                <strong><span class="p_hud_parking_percent js-parking_percent"></span>%</strong> available
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="c-parking-status__row hud_parking_availability_inner hud_parking_availability_express">
+                    <td>
+                        <h4 class="hud_parking_type"><span class="hud_parking_type_inner">Express Parking</span></h4>
+                        <div class="hud_parking_spaces_info">
+                            <strong><span class="hud_parking_spaces"></span></strong> spaces available
+                        </div>
+                    </td>
+                    <td valign="top">
+                        <div class="c-parking-status__flex">
+                            <h6 class="hud_parking_status js-parking_class js-parking_status">Available</h6>
+                            <div class="hud_parking_details">
+                                <strong><span class="p_hud_parking_percent js-parking_percent"></span>%</strong> available
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="c-parking-status__row hud_parking_availability_inner hud_parking_availability_longtermA">
+                    <td>
+                        <h4 class="hud_parking_type"><span class="hud_parking_type_inner">Long Term Lot A</span></h4>
+                        <div class="hud_parking_spaces_info">
+                            <strong><span class="hud_parking_spaces"></span></strong> spaces available
+                        </div>
+                    </td>
+                    <td valign="top">
+                        <div class="c-parking-status__flex">
+                            <h6 class="hud_parking_status js-parking_class js-parking_status">Available</h6>
+                            <div class="hud_parking_details">
+                                <strong><span class="p_hud_parking_percent js-parking_percent"></span>%</strong> available
+                            </div>
+                        </div>
+                    </td>
+                </tr> 
+
+                <tr class="c-parking-status__row hud_parking_availability_inner hud_parking_availability_longtermB">
+                    <td>
+                        <h4 class="hud_parking_type"><span class="hud_parking_type_inner">Long Term Lot B</span></h4>
+                        <div class="hud_parking_spaces_info">
+                            <strong><span class="hud_parking_spaces"></span></strong> spaces available
+                        </div>
+                    </td>
+                    <td valign="top">
+                        <div class="c-parking-status__flex">
+                            <h6 class="hud_parking_status js-parking_class js-parking_status">Available</h6>
+                            <div class="hud_parking_details">
+                                <strong><span class="p_hud_parking_percent js-parking_percent"></span>%</strong> available
+                            </div>
+                        </div>
+                    </td>
+                </tr>                                            
+
+            </table>
         </div>
         <footer class="hud_links">
             <a class="hud_link"

@@ -1,0 +1,126 @@
+@mixin connector {
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateX(calc(100% + #{rem(13)})) translateY(-50%);
+        height: 1px;
+        background-color: #fff;
+        opacity: 0.4;
+        width: var(--parkingStatusWidth);
+    }
+}
+
+@mixin fancy-query() {
+    @include media('>=1280px') {
+        @content;
+    }
+
+    @include media('<980px', '>=480px') {
+        @content;
+    }
+}
+
+.c-parking-status {
+    margin: 0;
+    border: 0;
+    overflow: visible;
+    --parkingStatusWidth: calc(85vw - #{rem(200)});
+
+    @include media('>=980px') {
+        --parkingStatusWidth: calc(33vw - #{rem(200)});
+    }
+
+    * {
+        color: c(white);
+    }
+
+    tbody,
+    tr,
+    th,
+    td {
+        border: 0;
+    }
+
+    tr {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+    }
+
+    td {
+        height: auto;
+        padding: 0;
+
+        &:nth-child(1) {
+            width: 100%;
+        }
+    }
+
+    .hud_parking_details {
+        white-space: nowrap;
+        word-break: normal;
+        width: 100%;
+
+        @include fancy-query() {
+            text-align: center;
+            width: auto;
+        }
+    }
+
+    .hud_parking_spaces_info,
+    .hud_parking_details {
+        font-size: rem(14);
+
+        * {
+            font-size: rem(14);
+            margin: 0;
+            display: inline-block;
+            width: auto;
+        }
+    }
+
+    .p_hud_parking_percent {
+    }
+
+    .hud_parking_type_inner:after {
+        display: none;
+    }
+
+    .hud_parking_type {
+        position: relative;
+        overflow: visible;
+
+        @include connector();
+    }
+}
+
+.c-parking-status {
+    .c-parking-status {
+        &__flex {
+            position: relative;
+            top: rem(-1);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: row wrap;
+            row-gap: rem(5);
+            text-align: center;
+            column-gap: rem(13);
+            background-color: #000000;
+            flex-shrink: 0;
+            padding-left: rem(10);
+            width: rem(120);
+
+            @include fancy-query {
+                justify-content: flex-start;
+
+                width: rem(210);
+                flex-flow: row nowrap;
+            }
+        }
+    }
+}

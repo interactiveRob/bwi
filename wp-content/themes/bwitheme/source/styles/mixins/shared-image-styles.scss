@@ -1,0 +1,52 @@
+@mixin color-overlay {
+    position: relative;
+
+    &::after,
+    &::before {
+        pointer-events: none;
+        content: '';
+        display: block;
+        @include absolute-cover;
+        background-color: c(primary);
+    }
+
+    &::before {
+        opacity: 0.75;
+        z-index: z(hill);
+    }
+
+    &::after {
+        z-index: z(sea);
+        mix-blend-mode: color;
+    }
+}
+
+@mixin blur-overlay {
+    position: relative;
+
+    &::after,
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 33%;
+        background-color: c(primary);
+
+        @include media('>=1024px') {
+            width: 30%;
+        }
+    }
+
+    &::before {
+        opacity: 0.75;
+        z-index: z(hill);
+    }
+
+    &::after {
+        z-index: z(sea);
+        mix-blend-mode: color;
+    }
+}

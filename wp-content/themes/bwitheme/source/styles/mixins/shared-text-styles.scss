@@ -1,0 +1,10 @@
+@mixin section-heading {
+    font-size: 3.4rem;
+    font-weight: weight(bold);
+    color: c(darkBlue);
+    line-height: 1.33;
+
+    @include media(">=768px") {
+        font-size: 4.2rem;
+    }
+}

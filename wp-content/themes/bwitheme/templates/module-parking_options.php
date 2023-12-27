@@ -10,7 +10,7 @@ $long_term_parking_a1 = get_sub_field('long_term_parking_a');
 $long_term_parking_b1 = get_sub_field('long_term_parking_b');
 $message = get_sub_field('message');
 
-$str = file_get_contents(get_template_directory_uri().'/cache/parking-availability.json');
+$str = file_get_contents(get_template_directory().'/cache/parking-availability.json');
 $parking_op = json_decode($str, true);
 //echo '<pre>' . print_r($json, true) . '</pre>';
 
@@ -21,6 +21,7 @@ $daily_garage = $parking_op['lots']['Daily'];
 $express_parking = $parking_op['lots']['Express'];
 $long_term_parking_a = $parking_op['lots']['Long-Term A'];
 $long_term_parking_b = $parking_op['lots']['Long-Term B'];
+
 
 
 
@@ -93,10 +94,11 @@ $long_term_parking_b = $parking_op['lots']['Long-Term B'];
 					<div class="parking_item_status_wrapper">
 						<span class="parking_item_status js-parking_status"><?php print_r($hourly_garage['status']); ?></span>
 					</div>
-					<h3 class="parking_item_quantity js-parking_percent"><?php print_r($hourly_garage['percentage']); ?></h3>
+					<h3 class="parking_item_quantity"><span class="js-parking_percent"><?php print_r($hourly_garage['percentage']); ?></span>%<span class="parking_item_available"> available</span></h3>
 					<div class="parking_item_details">
 						<h4 class="parking_item_type">Hourly Garage</h4>
 					</div>
+                    <h5 class="parking_item_spaces"><?php print_r($hourly_garage['available']); ?> of <?= $hourly_garage['total'] ?> spaces available</h5>
 					<h5 class="parking_item_cost"><?php print_r($hourly_garage1['parking_cost']); ?></h5>
 				</header>
 				<div class="parking_item_body">
@@ -119,10 +121,11 @@ $long_term_parking_b = $parking_op['lots']['Long-Term B'];
 					<div class="parking_item_status_wrapper">
 						<span class="parking_item_status js-parking_status"><?php print_r($daily_garage['status']); ?></span>
 					</div>
-					<h3 class="parking_item_quantity js-parking_percent"><?php print_r($daily_garage['percentage']); ?></h3>
+					<h3 class="parking_item_quantity"><span class="js-parking_percent"><?php print_r($daily_garage['percentage']); ?></span>%<span class="parking_item_available"> available</span></h3>
 					<div class="parking_item_details">
 						<h4 class="parking_item_type">Daily Garage</h4>
 					</div>
+                    <h5 class="parking_item_spaces"><?php print_r($daily_garage['available']); ?> of <?= $daily_garage['total'] ?> spaces available</h5>
 					<h5 class="parking_item_cost"><?php print_r($daily_garage1['parking_cost']); ?></h5>
 				</header>
 				<div class="parking_item_body">
@@ -145,10 +148,11 @@ $long_term_parking_b = $parking_op['lots']['Long-Term B'];
 					<div class="parking_item_status_wrapper">
 						<span class="parking_item_status js-parking_status"><?php print_r($express_parking['status']); ?></span>
 					</div>
-					<h3 class="parking_item_quantity js-parking_percent"><?php print_r($express_parking['percentage']); ?></h3>
+					<h3 class="parking_item_quantity"><span class="js-parking_percent"><?php print_r($express_parking['percentage']); ?></span>%<span class="parking_item_available"> available</span></h3>
 					<div class="parking_item_details">
 						<h4 class="parking_item_type">Express Parking</h4>
 					</div>
+                    <h5 class="parking_item_spaces"><?php print_r($express_parking['available']); ?> of <?= $express_parking['total'] ?> spaces available</h5>
 					<h5 class="parking_item_cost"><?php print_r($express_parking1['parking_cost']); ?></h5>
 				</header>
 				<div class="parking_item_body">
@@ -171,10 +175,11 @@ $long_term_parking_b = $parking_op['lots']['Long-Term B'];
 					<div class="parking_item_status_wrapper">
 						<span class="parking_item_status js-parking_status"><?php print_r($long_term_parking_a['status']); ?></span>
 					</div>
-					<h3 class="parking_item_quantity js-parking_percent"><?php print_r($long_term_parking_a['percentage']); ?></h3>
+					<h3 class="parking_item_quantity"><span class="js-parking_percent"><?php print_r($long_term_parking_a['percentage']); ?></span>%<span class="parking_item_available"> available</span></h3>
 					<div class="parking_item_details">
 						<h4 class="parking_item_type">Long Term Parking A</h4>
 					</div>
+                    <h5 class="parking_item_spaces"><?php print_r($long_term_parking_a['available']); ?> of <?= $long_term_parking_a['total'] ?> spaces available</h5>
 					<h5 class="parking_item_cost"><?php print_r($long_term_parking_a1['parking_cost']); ?></h5>
 				</header>
 				<div class="parking_item_body">
@@ -197,10 +202,11 @@ $long_term_parking_b = $parking_op['lots']['Long-Term B'];
 					<div class="parking_item_status_wrapper">
 						<span class="parking_item_status js-parking_status"><?php print_r($long_term_parking_b['status']); ?></span>
 					</div>
-					<h3 class="parking_item_quantity js-parking_percent"><?php print_r($long_term_parking_b['percentage']); ?></h3>
+					<h3 class="parking_item_quantity"><span class="js-parking_percent"><?php print_r($long_term_parking_b['percentage']); ?></span>%<span class="parking_item_available"> available</span></h3>
 					<div class="parking_item_details">
 						<h4 class="parking_item_type">Long Term Parking B</h4>
 					</div>
+                    <h5 class="parking_item_spaces"><?php print_r($long_term_parking_a['available']); ?> of <?= $long_term_parking_a['total'] ?> spaces available</h5>
 					<h5 class="parking_item_cost"><?php print_r($long_term_parking_b1['parking_cost']); ?></h5>
 				</header>
 				<div class="parking_item_body">

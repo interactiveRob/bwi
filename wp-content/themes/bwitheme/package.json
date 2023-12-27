@@ -1,0 +1,47 @@
+{
+  "name": "bwi-theme",
+  "version": "1.0.0",
+  "description": "Don't forget to update your package.json etc.",
+  "author": "Rob Kirkner",
+  "license": "© Copyrighted, All rights reserved",
+  "private": true,
+  "scripts": {
+    "watch": "gulp watch --mode development",
+    "sync": "gulp sync --mode development",
+    "development:sync": "concurrently --raw \"yarn sync\" \"yarn pl sync\"",
+    "development": "gulp --mode development",
+    "production": "yarn gulp --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-spread": "^7.6.2",
+    "@babel/preset-env": "^7.0.0",
+    "autoprefixer": "^9.1.0",
+    "babel-loader": "^8.0.0",
+    "browser-sync": "^2.24.6",
+    "concurrently": "^4.1.0",
+    "cssnano": "^4.0.5",
+    "del": "^5.0.0",
+    "gulp": "^4.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-svgmin": "^2.0.0",
+    "gulp-svgstore": "^7.0.0",
+    "webpack": "^4.35.0",
+    "webpack-manifest-plugin": "^2.0.4",
+    "webpack-stream": "^5.1.0",
+    "yargs": "^13.2.2"
+  },
+  "browserslist": [
+    "ie >= 11"
+  ],
+  "dependencies": {
+    "idempotent-babel-polyfill": "^7.4.4",
+    "objectFitPolyfill": "^2.3.5",
+    "sass": "^1.69.5",
+    "smooth-scroll": "^16.1.3"
+  }
+}

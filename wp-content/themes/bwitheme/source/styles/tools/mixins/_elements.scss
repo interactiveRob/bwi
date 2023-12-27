@@ -1,0 +1,41 @@
+@mixin absolute-cover($width: 100%, $height: 100%) {
+    position: absolute;
+    height: $height;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: $width;
+}
+
+@mixin absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin placeholder($immediateSelector: false) {
+    $pre: "";
+    $vendors: ("::-webkit-input-placeholder", ":-moz-placeholder", "::-moz-placeholder", ":-ms-input-placeholder");
+    @if ($immediateSelector) {
+        $pre: "&";
+    }
+    @each $vendor in $vendors {
+        #{$pre}#{unquote($vendor)} {
+            @content;
+        }
+    }
+}
+
+@mixin mobile-hover() {
+    &:active {
+        @content;
+    }
+
+    @include media(">768px") {
+        &:hover {
+            @content;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@import 'tools/functions/map_sugar';
+/*———— -Typefaces etc- ————*/
+
+$metro: 'Metropolis', 'Arial', 'Helvetica', 'sans-serif';
+
+$weights: (
+    light: 300,
+    regular: 400,
+    medium: 500,
+    semi-bold: 600,
+    bold: 700,
+    extra-bold: 800,
+    black: 900,
+);
+
+$rem-base: 62.5%;
+
+/*———— -Z-indices- ————*/
+$z-indexes: (
+    sky: 100,
+    mountain: 50,
+    hill: 10,
+    land: 5,
+    default: 1,
+    sea: -1,
+);
+
+/*———— -Colors- ————*/
+$colors: (
+    white: #ffffff,
+    primary: #000000,
+    black: #000000,
+    reading: #000000,
+    gray: #dcdcdc,
+);
+
+/*———— -Gradients- ————*/
+
+/*———— -Shadow- ————*/
+
+/*———— -Animación- ————*/
+@function animate($duration) {
+    @return all ease $duration + ms;
+}

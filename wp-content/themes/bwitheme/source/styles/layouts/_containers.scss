@@ -1,0 +1,58 @@
+$desktop-spacing: 1.5rem;
+$wide-mobile-spacing: 2.8rem;
+$mobile-spacing: 2rem;
+
+// container
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: $mobile-spacing;
+    padding-right: $mobile-spacing;
+
+    //for those healthy-sized phones
+    @include media(">=345px", "<=480px") {
+        padding-left: $wide-mobile-spacing;
+        padding-right: $wide-mobile-spacing;
+    }
+
+    @include media(">=768px") {
+        padding-left: $wide-mobile-spacing;
+        padding-right: $wide-mobile-spacing;
+        width: 95%;
+    }
+
+    @include media(">=1170px") {
+        width: 100%;
+    }
+
+    &-full {
+        @extend .container;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    &.is-narrow {
+        max-width: 720px;
+    }
+
+    &.is-form {
+        max-width: 650px;
+    }
+}
+
+.flush-margin {
+    margin-left: -$mobile-spacing;
+    margin-right: -$mobile-spacing;
+
+    //for those healthy-sized phones
+    @include media(">=345px", "<768px") {
+        margin-left: -$wide-mobile-spacing;
+        margin-right: -$wide-mobile-spacing;
+    }
+
+    @include media(">=768px") {
+        margin-left: -$wide-mobile-spacing;
+        margin-right: -$wide-mobile-spacing;
+    }
+}
