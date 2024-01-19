@@ -1,16 +1,12 @@
-import 'objectFitPolyfill';
+import ParkingData from "@/modules/ParkingData";
 
-import SmoothScroll from 'smooth-scroll/dist/smooth-scroll.polyfills.js';
-import LazySrc from '@/modules/LazySrc';
+document.addEventListener('DOMContentLoaded', () => {
 
-document.addEventListener('DOMContentLoaded', function () {
-    const smoothScroll = new SmoothScroll('a[href*="#"]', {
-        speed: 800,
-    });
-
-    LazySrc.init({
-        selector: `[data-lazy-src]`,
-    });
+   requestAnimationFrame(()=>{
+      ParkingData.init()
+   });
 });
 
-window.addEventListener('load', () => {});
+window.addEventListener('load', () => {
+
+});
