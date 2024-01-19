@@ -1,16 +1,16 @@
 {
-    "updated": "as of <time>1:00pm</time>",
+    "updated": "as of <time>3:22pm</time>",
     "waittimes": [
         {
             "Queue_ID": "EB1276DF-1668-D04A-2ADC-02F67FD77EDF",
             "IATA": "",
             "Site_ID": "1",
             "Queue_Name": "BWI: Checkpoint A Clear",
-            "Projected_Wait_Time": "2",
+            "Projected_Wait_Time": "1",
             "Projected_Min_Wait_Minutes": "1",
-            "Projected_Max_Wait_Minutes": "4",
-            "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:57:00"
+            "Projected_Max_Wait_Minutes": "3",
+            "Queue_State": "Closed",
+            "Updated_Time": "2024-01-19T12:00:01"
         },
         {
             "Queue_ID": "55549DAE-3BC1-487E-9D79-07994E5C8239",
@@ -21,7 +21,7 @@
             "Projected_Min_Wait_Minutes": "1",
             "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T08:03:03"
+            "Updated_Time": "2024-01-19T15:07:01"
         },
         {
             "Queue_ID": "5D5C887F-84B5-1A1B-5AA2-1C88DE8A4943",
@@ -32,7 +32,7 @@
             "Projected_Min_Wait_Minutes": "1",
             "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T08:03:03"
+            "Updated_Time": "2024-01-19T15:07:01"
         },
         {
             "Queue_ID": "53E80C01-FF48-C40D-2B12-23ABADBE3AA8",
@@ -52,9 +52,9 @@
             "Queue_Name": "Checkpoint A Priority",
             "Projected_Wait_Time": "1",
             "Projected_Min_Wait_Minutes": "1",
-            "Projected_Max_Wait_Minutes": "4",
+            "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:29:01"
+            "Updated_Time": "2024-01-19T12:00:00"
         },
         {
             "Queue_ID": "1D15DDCD-9E7F-DD89-ED9D-26507F8D64D3",
@@ -64,8 +64,8 @@
             "Projected_Wait_Time": "1",
             "Projected_Min_Wait_Minutes": "1",
             "Projected_Max_Wait_Minutes": "3",
-            "Queue_State": "Closed",
-            "Updated_Time": "2024-01-19T07:56:01"
+            "Queue_State": "Open",
+            "Updated_Time": "2024-01-19T12:00:01"
         },
         {
             "Queue_ID": "94C75A75-FCCF-93B4-9A24-2754306C56AD",
@@ -76,7 +76,7 @@
             "Projected_Min_Wait_Minutes": "1",
             "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Closed",
-            "Updated_Time": "2024-01-19T08:12:01"
+            "Updated_Time": "2024-01-19T11:24:01"
         },
         {
             "Queue_ID": "23C41BD1-05DB-47A5-9212-2A57A8829F77",
@@ -87,7 +87,7 @@
             "Projected_Min_Wait_Minutes": "1",
             "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T06:38:01"
+            "Updated_Time": "2024-01-19T12:34:01"
         },
         {
             "Queue_ID": "0B93AD1E-D772-47E3-9303-30792CB2CFC9",
@@ -129,9 +129,9 @@
             "Queue_Name": "Checkpoint A General",
             "Projected_Wait_Time": "1",
             "Projected_Min_Wait_Minutes": "1",
-            "Projected_Max_Wait_Minutes": "5",
+            "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:55:01"
+            "Updated_Time": "2024-01-19T12:00:01"
         },
         {
             "Queue_ID": "07FD2F60-708D-A733-3C8F-583DDA4BFB72",
@@ -149,22 +149,22 @@
             "IATA": "",
             "Site_ID": "1",
             "Queue_Name": "Checkpoint A Clear",
-            "Projected_Wait_Time": "1",
-            "Projected_Min_Wait_Minutes": "1",
-            "Projected_Max_Wait_Minutes": "3",
-            "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:56:01"
+            "Projected_Wait_Time": "0",
+            "Projected_Min_Wait_Minutes": "0",
+            "Projected_Max_Wait_Minutes": "0",
+            "Queue_State": "Closure",
+            "Updated_Time": "2024-01-19T11:06:01"
         },
         {
             "Queue_ID": "C1E7995A-711A-4450-A4C7-7160BC3881BA",
             "IATA": "",
             "Site_ID": "1",
             "Queue_Name": "Checkpoint BC Clear",
-            "Projected_Wait_Time": "0",
-            "Projected_Min_Wait_Minutes": "0",
-            "Projected_Max_Wait_Minutes": "0",
-            "Queue_State": "Closure",
-            "Updated_Time": "2024-01-19T07:57:03"
+            "Projected_Wait_Time": "1",
+            "Projected_Min_Wait_Minutes": "1",
+            "Projected_Max_Wait_Minutes": "3",
+            "Queue_State": "Open",
+            "Updated_Time": "2024-01-19T12:00:01"
         },
         {
             "Queue_ID": "B35B67EA-09A4-4E0B-A32E-7D2BD52CA108",
@@ -186,7 +186,7 @@
             "Projected_Min_Wait_Minutes": "1",
             "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T07:58:01"
+            "Updated_Time": "2024-01-19T12:32:01"
         },
         {
             "Queue_ID": "C52BCE52-7CA1-4259-A669-8026CC5B68CC",
@@ -197,18 +197,18 @@
             "Projected_Min_Wait_Minutes": "1",
             "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:55:01"
+            "Updated_Time": "2024-01-19T15:17:01"
         },
         {
             "Queue_ID": "D2E053FE-7FE8-4303-5626-8332B15FA1FE",
             "IATA": "",
             "Site_ID": "1",
             "Queue_Name": "BWI: Checkpoint B TSA-Pre",
-            "Projected_Wait_Time": "7",
-            "Projected_Min_Wait_Minutes": "5",
-            "Projected_Max_Wait_Minutes": "9",
+            "Projected_Wait_Time": "1",
+            "Projected_Min_Wait_Minutes": "1",
+            "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:57:01"
+            "Updated_Time": "2024-01-19T15:17:01"
         },
         {
             "Queue_ID": "9974F51A-775C-4B5D-BA18-84F096280FC1",
@@ -219,7 +219,7 @@
             "Projected_Min_Wait_Minutes": "1",
             "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:20:01"
+            "Updated_Time": "2024-01-19T13:40:01"
         },
         {
             "Queue_ID": "3ADCCE03-B874-5E40-8E35-A4056528FEAE",
@@ -230,7 +230,7 @@
             "Projected_Min_Wait_Minutes": "1",
             "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:20:01"
+            "Updated_Time": "2024-01-19T13:40:01"
         },
         {
             "Queue_ID": "FB75C911-242D-43F8-B4FB-ACD85C1B8B28",
@@ -241,7 +241,7 @@
             "Projected_Min_Wait_Minutes": "1",
             "Projected_Max_Wait_Minutes": "4",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:56:01"
+            "Updated_Time": "2024-01-19T15:17:01"
         },
         {
             "Queue_ID": "9E00EBF5-CBFE-BD6A-EC38-B4FE5D201616",
@@ -259,11 +259,11 @@
             "IATA": "",
             "Site_ID": "1",
             "Queue_Name": "BWI: Checkpoint B General",
-            "Projected_Wait_Time": "2",
+            "Projected_Wait_Time": "1",
             "Projected_Min_Wait_Minutes": "1",
-            "Projected_Max_Wait_Minutes": "4",
+            "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:56:01"
+            "Updated_Time": "2024-01-19T15:19:01"
         },
         {
             "Queue_ID": "701CAA0F-5DB9-907F-6E4E-CD2D9F9A063E",
@@ -274,7 +274,7 @@
             "Projected_Min_Wait_Minutes": "1",
             "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T06:38:01"
+            "Updated_Time": "2024-01-19T12:34:01"
         },
         {
             "Queue_ID": "8D9F9AFC-5D42-4DAC-0EEF-D8BB6D929D25",
@@ -285,7 +285,7 @@
             "Projected_Min_Wait_Minutes": "1",
             "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T07:58:01"
+            "Updated_Time": "2024-01-19T12:32:01"
         },
         {
             "Queue_ID": "65C2BE93-37FD-0FFD-6041-DA8C128558B7",
@@ -296,29 +296,29 @@
             "Projected_Min_Wait_Minutes": "1",
             "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:55:01"
+            "Updated_Time": "2024-01-19T15:17:01"
         },
         {
             "Queue_ID": "D1599007-99FB-44AB-9134-E89EDDA8F98E",
             "IATA": "",
             "Site_ID": "1",
             "Queue_Name": "Checkpoint B PreCheck",
-            "Projected_Wait_Time": "4",
-            "Projected_Min_Wait_Minutes": "4",
-            "Projected_Max_Wait_Minutes": "8",
+            "Projected_Wait_Time": "1",
+            "Projected_Min_Wait_Minutes": "1",
+            "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:56:01"
+            "Updated_Time": "2024-01-19T15:17:01"
         },
         {
             "Queue_ID": "78A66685-3246-80D7-A85F-EA4AFB2FFC7E",
             "IATA": "",
             "Site_ID": "1",
             "Queue_Name": "BWI: Checkpoint A Priority",
-            "Projected_Wait_Time": "2",
+            "Projected_Wait_Time": "1",
             "Projected_Min_Wait_Minutes": "1",
-            "Projected_Max_Wait_Minutes": "4",
+            "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:29:01"
+            "Updated_Time": "2024-01-19T12:00:00"
         },
         {
             "Queue_ID": "7059BCAB-61DE-442E-864D-F0E2189316B5",
@@ -336,11 +336,11 @@
             "IATA": "",
             "Site_ID": "1",
             "Queue_Name": "BWI: Checkpoint A General",
-            "Projected_Wait_Time": "3",
+            "Projected_Wait_Time": "1",
             "Projected_Min_Wait_Minutes": "1",
-            "Projected_Max_Wait_Minutes": "5",
+            "Projected_Max_Wait_Minutes": "3",
             "Queue_State": "Open",
-            "Updated_Time": "2024-01-19T09:55:01"
+            "Updated_Time": "2024-01-19T12:00:01"
         },
         {
             "Queue_ID": "623CB3A6-6DBB-43B5-893A-F7D180214547",
