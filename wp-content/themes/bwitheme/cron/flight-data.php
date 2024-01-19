@@ -113,7 +113,10 @@
 	$output = array("Arrivals" => $arrivals, "Departures" => $departures, "Dates" => $dates, "Airlines" => $unique_airlines);
 	$hud_output = $dates;
    // print_r( $hud_output );
-    echo "<br> update flight-data ";
+
+  echo "<br>";
+  echo "Successfully updated flight-data.json as of <time>" . date("g:ia") . "</time>";
+
 	file_put_contents($root."cache/flight-data.json", json_encode($output, JSON_PRETTY_PRINT |  JSON_UNESCAPED_SLASHES));
 	file_put_contents($root."cache/hud-data.json", json_encode($hud_output, JSON_PRETTY_PRINT |  JSON_UNESCAPED_SLASHES));
 

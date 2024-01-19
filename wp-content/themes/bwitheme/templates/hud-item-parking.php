@@ -2,11 +2,11 @@
     <div class="hud_item_body">
         <header class="hud_header">
             <h2 class="hud_title">Parking Availability</h2>
-            <h3 class="hud_time hud_time_lg js-parking_time">*as of <time>1:35am</time></h3>
+            <h3 class="hud_time hud_time_lg js-parking_time">as of <time>1:35am</time></h3>
         </header>
         <div class="hud_parking js-parking"
              data-file="/themes/custom/bwi/cache/parking-availability.json">
-            <h3 class="hud_time hud_time_sm js-parking_time">*as of <time>1:35am</time></h3>
+            <h3 class="hud_time hud_time_sm js-parking_time">as of <time>1:35am</time></h3>
 
             <table class="c-parking-status" width="100%" border="0" cellpadding="0" cellspacing="0">
                 <tr class="c-parking-status__row hud_parking_availability_inner hud_parking_availability_hourly">

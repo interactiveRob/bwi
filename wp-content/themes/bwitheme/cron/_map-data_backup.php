@@ -1,5 +1,5 @@
 <?php
-	include_once "four-winds.php";
+	include "four-winds.php";
 
 	$root = str_replace("cron/map-data.php", "", __FILE__);
 	$cache_file = $root."cache/map-data.json";
@@ -110,9 +110,7 @@
 			}
 
 			if (!$category) {
-				if ($item["assetType"]["id"] == "3") {
-					$category = "Facilities";
-				} elseif ($item["assetType"]["id"] == "4") {
+				if ($item["assetType"]["id"] == "4") {
 					$category = "Food & Drink";
 				} elseif ($item["assetType"]["id"] == "5") {
 					$category = "Shopping";
@@ -236,8 +234,5 @@
 		}
 	}
 
-  echo "<br>";
-  echo "Successfully updated map-data.json as of <time>" . date("g:ia") . "</time>";
-  
 	file_put_contents($cache_file, json_encode($categories, JSON_PRETTY_PRINT |  JSON_UNESCAPED_SLASHES));
 	file_put_contents($es_cache_file, json_encode($spanish_categories, JSON_PRETTY_PRINT |  JSON_UNESCAPED_SLASHES));

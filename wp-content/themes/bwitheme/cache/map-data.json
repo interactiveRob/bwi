@@ -5,8 +5,8 @@
         "points": [
             {
                 "coordinates": [
-                    786.13677978515602,
-                    744.05895996093795
+                    786.136779785156,
+                    744.058959960938
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -41,8 +41,8 @@
             },
             {
                 "coordinates": [
-                    842.57803344726608,
-                    708.63555908203102
+                    842.5780334472661,
+                    708.635559082031
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -77,7 +77,7 @@
             {
                 "coordinates": [
                     277.742431640625,
-                    973.57794189453102
+                    973.577941894531
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -128,32 +128,7 @@
             },
             {
                 "coordinates": [
-                    418.33453369140602,
-                    1003.23095703125
-                ],
-                "attr": {
-                    "category": "Food & Drink",
-                    "layer": "upper",
-                    "title": "Boar's Head",
-                    "airline": "",
-                    "gate": "A6",
-                    "concourse": [
-                        "A"
-                    ],
-                    "labels": [
-                        "Post Security",
-                        "Concourse A"
-                    ],
-                    "hours": "Daily 5:00am - 11:00pm",
-                    "phone": "410-859-1333",
-                    "image": "https://bwi.resources.aocdms.com/1c6ccecd-b0d5-4452-9cb8-872fdf61a508.png",
-                    "caption": "Boar\u2019s Head Brand was established in the New York City area in 1905. Dissatisfied with the quality of hams available, our founder Frank Brunckhorst set out to craft products of uncompromising standards by using only the finest ingredients. Enjoy quality sandwiches, wraps, salads and other snack items on the fly!",
-                    "link": "https://boarshead.com"
-                }
-            },
-            {
-                "coordinates": [
-                    760.53375244140602,
+                    760.533752441406,
                     797.757080078125
                 ],
                 "attr": {
@@ -178,8 +153,8 @@
             },
             {
                 "coordinates": [
-                    770.78262329101608,
-                    759.05975341796898
+                    770.7826232910161,
+                    759.059753417969
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -220,8 +195,8 @@
             },
             {
                 "coordinates": [
-                    897.15002441406205,
-                    954.75421142578102
+                    897.150024414062,
+                    954.754211425781
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -245,8 +220,8 @@
             },
             {
                 "coordinates": [
-                    541.23919677734398,
-                    904.95843505859398
+                    541.239196777344,
+                    904.958435058594
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -272,8 +247,8 @@
             },
             {
                 "coordinates": [
-                    892.10787963867199,
-                    645.18292236328102
+                    892.107879638672,
+                    645.182922363281
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -297,8 +272,8 @@
             },
             {
                 "coordinates": [
-                    869.70587158203102,
-                    954.09832763671898
+                    869.705871582031,
+                    954.098327636719
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -324,8 +299,8 @@
             },
             {
                 "coordinates": [
-                    669.77484130859398,
-                    451.32897949218801
+                    669.774841308594,
+                    451.328979492188
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -350,7 +325,7 @@
             {
                 "coordinates": [
                     472.0048828125,
-                    920.74615478515602
+                    920.746154785156
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -376,7 +351,7 @@
             {
                 "coordinates": [
                     373.58447265625,
-                    987.67199707031295
+                    987.671997070313
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -400,8 +375,8 @@
             },
             {
                 "coordinates": [
-                    865.25405883789108,
-                    207.13685607910199
+                    865.2540588378911,
+                    207.136856079102
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -427,7 +402,7 @@
             {
                 "coordinates": [
                     508.447998046875,
-                    355.81848144531301
+                    355.818481445313
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -452,8 +427,8 @@
             },
             {
                 "coordinates": [
-                    978.99627685546898,
-                    367.80041503906301
+                    978.996276855469,
+                    367.800415039063
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -479,7 +454,7 @@
             {
                 "coordinates": [
                     468.58483886718705,
-                    901.90173339843795
+                    901.901733398438
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -504,7 +479,7 @@
             },
             {
                 "coordinates": [
-                    806.64639282226608,
+                    806.6463928222661,
                     333.23828125
                 ],
                 "attr": {
@@ -529,7 +504,7 @@
             },
             {
                 "coordinates": [
-                    315.43084716796898,
+                    315.430847167969,
                     964.334228515625
                 ],
                 "attr": {
@@ -555,8 +530,8 @@
             },
             {
                 "coordinates": [
-                    820.24270629882801,
-                    227.03164672851599
+                    820.242706298828,
+                    227.031646728516
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -580,8 +555,8 @@
             },
             {
                 "coordinates": [
-                    843.34597778320301,
-                    733.58990478515602
+                    843.345977783203,
+                    733.589904785156
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -678,31 +653,6 @@
                     "image": "https://bwi.resources.aocdms.com/71824619-7269-446e-a34d-781ae800f760.png",
                     "caption": "Two classics under one roof to satisfy your sweet tooth and your snacking on the go...Auntie Anne's - snacking with a twist, and Cinnabon - one bite and you're hooked!",
                     "link": "http://www.auntieannes.com"
-                }
-            },
-            {
-                "coordinates": [
-                    882,
-                    962
-                ],
-                "attr": {
-                    "category": "Food & Drink",
-                    "layer": "upper",
-                    "title": "BGR The Burger Joint",
-                    "airline": "",
-                    "gate": "B6",
-                    "concourse": [
-                        "B"
-                    ],
-                    "labels": [
-                        "Post Security",
-                        "Concourse B"
-                    ],
-                    "hours": "Daily - 5:00 AM to 11:00 PM",
-                    "phone": "410-859-1900",
-                    "image": "https://bwi.resources.aocdms.com/c5a9e4d6-705f-494e-a38a-6b2de8f5ce23.png",
-                    "caption": "Our burgers are crafted with the finest beef on the planet - guarantees a juicy and flavorful bite each and every time. We use cattle raised on grass and without hormones, fillers or antibiotics, grilled over an open flame, served on a fresh made bun with the finest toppings.",
-                    "link": "http://www.bgrtheburgerjoint.com"
                 }
             },
             {
@@ -909,32 +859,6 @@
             },
             {
                 "coordinates": [
-                    461,
-                    963
-                ],
-                "attr": {
-                    "category": "Food & Drink",
-                    "layer": "upper",
-                    "title": "Green Beans Coffee",
-                    "airline": "",
-                    "gate": "A5",
-                    "concourse": [
-                        "A",
-                        "B"
-                    ],
-                    "labels": [
-                        "Post Security",
-                        "Concourse A/B"
-                    ],
-                    "hours": "Daily - 5:00 AM to 11:00 PM",
-                    "phone": "410-553-4937",
-                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A4D.png",
-                    "caption": "Our cafes offer a casual and comfortable place where our customers can enjoy premium coffee beverages and fresh-baked treats",
-                    "link": "http://www.greenbeanscoffee.com"
-                }
-            },
-            {
-                "coordinates": [
                     997,
                     696
                 ],
@@ -1114,8 +1038,8 @@
             },
             {
                 "coordinates": [
-                    955.24270629882801,
-                    970.18695068359398
+                    955.242706298828,
+                    970.186950683594
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -1315,7 +1239,7 @@
             },
             {
                 "coordinates": [
-                    529.90832519531205,
+                    529.908325195312,
                     397.649658203125
                 ],
                 "attr": {
@@ -1342,7 +1266,7 @@
             {
                 "coordinates": [
                     780.002197265625,
-                    593.08367919921898
+                    593.083679199219
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -1416,32 +1340,7 @@
             },
             {
                 "coordinates": [
-                    440,
-                    986
-                ],
-                "attr": {
-                    "category": "Food & Drink",
-                    "layer": "upper",
-                    "title": "Vino Volo",
-                    "airline": "",
-                    "gate": "A7",
-                    "concourse": [
-                        "A"
-                    ],
-                    "labels": [
-                        "Post Security",
-                        "Concourse A"
-                    ],
-                    "hours": "Daily 10:00am - 11:00pm",
-                    "phone": "410-691-2215",
-                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A14D.png",
-                    "caption": "Vino Volo is a wine bar offering a selection of wines from around the world in various formats. Enjoy wines by the taste, flight, glass, or bottle with small plate offerings to pair perfectly!",
-                    "link": "http://www.vinovolo.com"
-                }
-            },
-            {
-                "coordinates": [
-                    798.36355590820301,
+                    798.363555908203,
                     1003.72741699219
                 ],
                 "attr": {
@@ -1491,8 +1390,8 @@
             },
             {
                 "coordinates": [
-                    436.93243408203102,
-                    444.37557983398398
+                    436.932434082031,
+                    444.375579833984
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -1529,7 +1428,7 @@
             {
                 "coordinates": [
                     491,
-                    822.53723144531295
+                    822.537231445313
                 ],
                 "attr": {
                     "category": "Food & Drink",
@@ -1559,7 +1458,132 @@
         "points": [
             {
                 "coordinates": [
-                    572.82330322265602,
+                    854.176391601562,
+                    644.759216308594
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Sock It To You",
+                    "airline": "",
+                    "gate": "Gate C1",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "Daily - 4:30 AM to 11:00 PM",
+                    "phone": "N/A",
+                    "image": "https://bwi.resources.aocdms.com/32cad1f1-f4d5-4848-b545-965a77fac1d7.jpg",
+                    "caption": "A Baltimore original, Sock It To You offers hundreds of styles of fun fashion socks! Pro & college teams, novelty, pets and more - plus a fun assortment of Maryland flag items.",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    863.512756347656,
+                    233.815048217773
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "OnSite News",
+                    "airline": "",
+                    "gate": "D22",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "TBD",
+                    "phone": "NA",
+                    "image": "https://bwi.resources.aocdms.com/6b0d5343-7b5d-444d-99c5-36d0a2eab495.jpeg",
+                    "caption": "Onsite has everything you need for travel convenience - snacks, drinks, magazines, gifts",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    603.111328125,
+                    940.978271484375
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "ZAAF",
+                    "airline": "",
+                    "gate": "A2",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Daily 7am-7pm",
+                    "phone": "",
+                    "image": "https://bwi.resources.aocdms.com/3a299398-fcef-4ac5-b5c6-bf843ac025d7.png",
+                    "caption": "ZAAF is a globally recognized artisanal brand with prestigious accolades, including features in New York Fashion Week, Vogue, Elle, CNN, and Forbes. The brand has also been honored with the UNESCO Tremplin Prize for Entrepreneurship.",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    388.89343261718705,
+                    959.811340332031
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Abrin Fashion House",
+                    "airline": "",
+                    "gate": "A6",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Daily 7am-7pm",
+                    "phone": "",
+                    "image": "https://bwi.resources.aocdms.com/5869576b-c2cf-49d4-93ee-1af895c0983b.jpg",
+                    "caption": "High quality unique women's fashion is here at Abrin Fashion House. Shop for jewelry & accessories, purses, and clothing!",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    409.500061035156,
+                    956.978515625
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Drama MaMa Bookshop",
+                    "airline": "",
+                    "gate": "A6",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Daily 7am-7pm",
+                    "phone": "",
+                    "image": "https://bwi.resources.aocdms.com/2a9ed5c3-ad18-4930-9ed4-f14b2899d171.jpg",
+                    "caption": "Drama MaMa Bookshop boasts handmade custom journals and stationery.",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    572.823303222656,
                     930.671630859375
                 ],
                 "attr": {
@@ -1586,15 +1610,15 @@
             },
             {
                 "coordinates": [
-                    620.41522216796898,
-                    938.17608642578102
+                    919.2586975097661,
+                    959.85302734375
                 ],
                 "attr": {
                     "category": "Shopping",
                     "layer": "upper",
-                    "title": "WELL TRVLD",
+                    "title": "Everything Blings",
                     "airline": "",
-                    "gate": "AB Food Court",
+                    "gate": "B5",
                     "concourse": [
                         "A",
                         "B",
@@ -1604,36 +1628,10 @@
                         "Post Security",
                         "Concourse A/B/C"
                     ],
-                    "hours": "Daily - 8:00 A.M. - 8:00 P.M. (Some Saturdays)",
-                    "phone": "301-894-1120",
-                    "image": "https://bwi.resources.aocdms.com/e1accf44-9ec2-4d5d-9997-7d4120827890.png",
-                    "caption": "WELL TRVLD provides travelers with a global curated selection of products while providing a first class customer experience.",
-                    "link": "https://www.alifewelldressed.com"
-                }
-            },
-            {
-                "coordinates": [
-                    750.77432250976608,
-                    390.25421142578102
-                ],
-                "attr": {
-                    "category": "Shopping",
-                    "layer": "upper",
-                    "title": "Everything Blings",
-                    "airline": "",
-                    "gate": "D5",
-                    "concourse": [
-                        "D",
-                        "E"
-                    ],
-                    "labels": [
-                        "Post Security",
-                        "Concourse D/E"
-                    ],
                     "hours": "Daily - 8:00am - 7:00pm (Some Saturdays)",
                     "phone": "202-285-3841",
-                    "image": "https://bwi.resources.aocdms.com/8a0556dc-e201-4466-a7f6-5be1107403bf.png",
-                    "caption": "Everything Blings is our retail venture offering clothing, accessories and decor that sparkle and shine.",
+                    "image": "https://bwi.resources.aocdms.com/beee907b-675b-4208-af2a-0861ac14f243.png",
+                    "caption": "Revolutionizing the way people see and wear bling.",
                     "link": "https://www.everything-blings.com"
                 }
             },
@@ -1666,8 +1664,8 @@
             },
             {
                 "coordinates": [
-                    534.10003662109398,
-                    358.24713134765602
+                    534.100036621094,
+                    358.247131347656
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -1693,7 +1691,7 @@
             {
                 "coordinates": [
                     465.871826171875,
-                    945.60260009765602
+                    945.602600097656
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -1719,8 +1717,8 @@
             },
             {
                 "coordinates": [
-                    742.21304321289108,
-                    460.03070068359398
+                    742.2130432128911,
+                    460.030700683594
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -1744,8 +1742,8 @@
             },
             {
                 "coordinates": [
-                    763.78414916992199,
-                    847.68249511718795
+                    763.784149169922,
+                    847.682495117188
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -1779,8 +1777,8 @@
             },
             {
                 "coordinates": [
-                    686.58880615234398,
-                    940.03314208984398
+                    686.588806152344,
+                    940.033142089844
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -1807,7 +1805,7 @@
             {
                 "coordinates": [
                     792.68701171875,
-                    350.34655761718801
+                    350.346557617188
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -1832,8 +1830,8 @@
             },
             {
                 "coordinates": [
-                    878.25329589843705,
-                    327.94268798828102
+                    878.253295898437,
+                    327.942687988281
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -1858,7 +1856,7 @@
             },
             {
                 "coordinates": [
-                    481.92437744140602,
+                    481.924377441406,
                     944.978759765625
                 ],
                 "attr": {
@@ -1885,8 +1883,8 @@
             },
             {
                 "coordinates": [
-                    683.53399658203102,
-                    923.47393798828102
+                    683.533996582031,
+                    923.473937988281
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -1912,33 +1910,8 @@
             },
             {
                 "coordinates": [
-                    862.18447875976608,
-                    270.28405761718801
-                ],
-                "attr": {
-                    "category": "Shopping",
-                    "layer": "upper",
-                    "title": "La Boutique",
-                    "airline": "",
-                    "gate": "D22",
-                    "concourse": [
-                        "D"
-                    ],
-                    "labels": [
-                        "Post Security",
-                        "Concourse D"
-                    ],
-                    "hours": "Daily - 6:00am - 8:00pm",
-                    "phone": "410-859-9179",
-                    "image": "https://bwi.resources.aocdms.com/7189857e-8e8d-45bd-9d40-ae3151b4d582.png",
-                    "caption": "La Boutique is a one stop shop for all of your cosmetic, accessory, and fragrance needs! With brands including Estee Lauder, Marc Jacobs,  and Ray Ban \u2013 you will be sure to find the perfect gift for a loved one and pick up a few things for yourself!",
-                    "link": ""
-                }
-            },
-            {
-                "coordinates": [
-                    727.08898925781205,
-                    383.95175170898398
+                    727.088989257812,
+                    383.951751708984
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -1964,7 +1937,7 @@
             {
                 "coordinates": [
                     549.378173828125,
-                    925.30938720703102
+                    925.309387207031
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -1988,8 +1961,8 @@
             },
             {
                 "coordinates": [
-                    556.23229980468705,
-                    374.01040649414102
+                    556.232299804687,
+                    374.010406494141
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -2014,7 +1987,7 @@
             },
             {
                 "coordinates": [
-                    935.70587158203102,
+                    935.705871582031,
                     1008.36071777344
                 ],
                 "attr": {
@@ -2039,8 +2012,8 @@
             },
             {
                 "coordinates": [
-                    449.70587158203102,
-                    377.83132934570301
+                    449.705871582031,
+                    377.831329345703
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -2183,31 +2156,6 @@
                         "Concourse B"
                     ],
                     "hours": "Daily - 5:00 AM to 11:00 PM",
-                    "phone": "410-850-4720",
-                    "image": "https://bwi.resources.aocdms.com/dc11f5bd-9302-450f-8249-8f3978260911.png",
-                    "caption": "News, magazines, snacks, books and travel convenience items, plus a great selection of souvenirs.",
-                    "link": "https://www.hudsongroup.com"
-                }
-            },
-            {
-                "coordinates": [
-                    990,
-                    330
-                ],
-                "attr": {
-                    "category": "Shopping",
-                    "layer": "upper",
-                    "title": "Hudson News",
-                    "airline": "",
-                    "gate": "D11",
-                    "concourse": [
-                        "D"
-                    ],
-                    "labels": [
-                        "Post Security",
-                        "Concourse D"
-                    ],
-                    "hours": "Daily - 4:30 AM to 10:00 PM",
                     "phone": "410-850-4720",
                     "image": "https://bwi.resources.aocdms.com/dc11f5bd-9302-450f-8249-8f3978260911.png",
                     "caption": "News, magazines, snacks, books and travel convenience items, plus a great selection of souvenirs.",
@@ -2469,31 +2417,6 @@
             },
             {
                 "coordinates": [
-                    827,
-                    162
-                ],
-                "attr": {
-                    "category": "Shopping",
-                    "layer": "upper",
-                    "title": "Onsite News",
-                    "airline": "",
-                    "gate": "D25",
-                    "concourse": [
-                        "D"
-                    ],
-                    "labels": [
-                        "Post Security",
-                        "Concourse D"
-                    ],
-                    "hours": "Daily 5 a.m. - 10 p.m.",
-                    "phone": "410-859-9172",
-                    "image": "https://bwi.resources.aocdms.com/7c29e214-6cf6-4d31-b078-ffa2217d4ff7.png",
-                    "caption": "Onsite has everything you need for travel convenience - snacks, drinks, magazines, gifts",
-                    "link": "http://onsiteretailers.com"
-                }
-            },
-            {
-                "coordinates": [
                     793,
                     618
                 ],
@@ -2632,8 +2555,8 @@
             },
             {
                 "coordinates": [
-                    436.99847412109398,
-                    425.24496459960898
+                    436.998474121094,
+                    425.244964599609
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -2657,8 +2580,8 @@
             },
             {
                 "coordinates": [
-                    673.78875732421898,
-                    810.93005371093795
+                    673.788757324219,
+                    810.930053710938
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -2683,8 +2606,8 @@
             },
             {
                 "coordinates": [
-                    554.52941894531205,
-                    436.59603881835898
+                    554.529418945312,
+                    436.596038818359
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -2709,8 +2632,8 @@
             },
             {
                 "coordinates": [
-                    773.23483276367199,
-                    726.32672119140602
+                    773.234832763672,
+                    726.326721191406
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -2735,8 +2658,8 @@
             },
             {
                 "coordinates": [
-                    694.56854248046898,
-                    416.11434936523398
+                    694.568542480469,
+                    416.114349365234
                 ],
                 "attr": {
                     "category": "Shopping",
@@ -2767,8 +2690,8 @@
         "points": [
             {
                 "coordinates": [
-                    741.73306274414108,
-                    547.45709228515602
+                    741.7330627441411,
+                    547.457092285156
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -2793,7 +2716,7 @@
             {
                 "coordinates": [
                     601.65673828125,
-                    451.82208251953102
+                    451.822082519531
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -2817,8 +2740,8 @@
             },
             {
                 "coordinates": [
-                    440.09869384765602,
-                    436.33020019531301
+                    440.098693847656,
+                    436.330200195313
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -2842,8 +2765,8 @@
             },
             {
                 "coordinates": [
-                    384.18414306640602,
-                    435.98593139648398
+                    384.184143066406,
+                    435.985931396484
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -2894,7 +2817,7 @@
             },
             {
                 "coordinates": [
-                    434.80059814453102,
+                    434.800598144531,
                     922.849609375
                 ],
                 "attr": {
@@ -2921,8 +2844,8 @@
             },
             {
                 "coordinates": [
-                    491.00054931640602,
-                    901.08612060546898
+                    491.000549316406,
+                    901.086120605469
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -2948,8 +2871,8 @@
             },
             {
                 "coordinates": [
-                    796.41159057617199,
-                    974.11926269531295
+                    796.411590576172,
+                    974.119262695313
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -2975,8 +2898,8 @@
             },
             {
                 "coordinates": [
-                    927.86883544921898,
-                    995.44494628906295
+                    927.868835449219,
+                    995.444946289063
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3002,8 +2925,8 @@
             },
             {
                 "coordinates": [
-                    717.54595947265602,
-                    903.95446777343795
+                    717.545959472656,
+                    903.954467773438
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3029,8 +2952,8 @@
             },
             {
                 "coordinates": [
-                    810.79690551757801,
-                    747.27410888671898
+                    810.796905517578,
+                    747.274108886719
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3056,7 +2979,7 @@
             },
             {
                 "coordinates": [
-                    953.10760498046898,
+                    953.107604980469,
                     661.031494140625
                 ],
                 "attr": {
@@ -3083,8 +3006,8 @@
             },
             {
                 "coordinates": [
-                    1037.6420745849609,
-                    662.06878662109398
+                    1037.642074584961,
+                    662.068786621094
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3111,7 +3034,7 @@
             {
                 "coordinates": [
                     1021.043640136719,
-                    333.41995239257801
+                    333.419952392578
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3136,8 +3059,8 @@
             },
             {
                 "coordinates": [
-                    918.13339233398392,
-                    331.20684814453102
+                    918.1333923339839,
+                    331.206848144531
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3162,8 +3085,8 @@
             },
             {
                 "coordinates": [
-                    855.05935668945301,
-                    292.47717285156301
+                    855.059356689453,
+                    292.477172851563
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3188,7 +3111,7 @@
             },
             {
                 "coordinates": [
-                    825.18218994140602,
+                    825.182189941406,
                     125.386337280273
                 ],
                 "attr": {
@@ -3214,8 +3137,8 @@
             },
             {
                 "coordinates": [
-                    670.22326660156205,
-                    419.16009521484398
+                    670.223266601562,
+                    419.160095214844
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3240,8 +3163,8 @@
             },
             {
                 "coordinates": [
-                    417.83575439453102,
-                    331.87609863281301
+                    417.835754394531,
+                    331.876098632813
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3265,8 +3188,8 @@
             },
             {
                 "coordinates": [
-                    394.40240478515602,
-                    366.55361938476602
+                    394.402404785156,
+                    366.553619384766
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3290,8 +3213,8 @@
             },
             {
                 "coordinates": [
-                    612.18371582031205,
-                    423.36614990234398
+                    612.183715820312,
+                    423.366149902344
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3316,8 +3239,8 @@
             },
             {
                 "coordinates": [
-                    821.08581542968705,
-                    314.47549438476602
+                    821.085815429687,
+                    314.475494384766
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3341,8 +3264,8 @@
             },
             {
                 "coordinates": [
-                    450.03131103515602,
-                    908.63983154296898
+                    450.031311035156,
+                    908.639831542969
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3366,8 +3289,8 @@
             },
             {
                 "coordinates": [
-                    554.10394287109398,
-                    834.59576416015602
+                    554.103942871094,
+                    834.595764160156
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3391,8 +3314,8 @@
             },
             {
                 "coordinates": [
-                    785.63790893554699,
-                    725.21759033203102
+                    785.637908935547,
+                    725.217590332031
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3416,8 +3339,8 @@
             },
             {
                 "coordinates": [
-                    745.75646972656205,
-                    398.39367675781301
+                    745.756469726562,
+                    398.393676757813
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3442,7 +3365,7 @@
             },
             {
                 "coordinates": [
-                    974.24354553222702,
+                    974.243545532227,
                     658.7626953125
                 ],
                 "attr": {
@@ -3469,7 +3392,7 @@
             {
                 "coordinates": [
                     681.679931640625,
-                    792.82293701171898
+                    792.822937011719
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3495,8 +3418,8 @@
             },
             {
                 "coordinates": [
-                    937.86691284179699,
-                    698.79266357421898
+                    937.866912841797,
+                    698.792663574219
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3522,8 +3445,8 @@
             },
             {
                 "coordinates": [
-                    593.16583251953102,
-                    414.01263427734398
+                    593.165832519531,
+                    414.012634277344
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3549,7 +3472,7 @@
             {
                 "coordinates": [
                     725.873779296875,
-                    999.02191162109398
+                    999.021911621094
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3573,8 +3496,8 @@
             },
             {
                 "coordinates": [
-                    416.55340576171898,
-                    925.62384033203102
+                    416.553405761719,
+                    925.623840332031
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3598,8 +3521,8 @@
             },
             {
                 "coordinates": [
-                    650.34124755859398,
-                    421.44534301757801
+                    650.341247558594,
+                    421.445343017578
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3624,8 +3547,8 @@
             },
             {
                 "coordinates": [
-                    856.84329223632801,
-                    701.33654785156295
+                    856.843292236328,
+                    701.336547851563
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3651,7 +3574,7 @@
             {
                 "coordinates": [
                     537.058837890625,
-                    422.30191040039102
+                    422.301910400391
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -3776,8 +3699,8 @@
             },
             {
                 "coordinates": [
-                    684.48175048828102,
-                    451.00759887695301
+                    684.481750488281,
+                    451.007598876953
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -4679,8 +4602,8 @@
             },
             {
                 "coordinates": [
-                    696.21893310546898,
-                    431.65130615234398
+                    696.218933105469,
+                    431.651306152344
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -4704,8 +4627,8 @@
             },
             {
                 "coordinates": [
-                    589.69543457031205,
-                    488.46383666992199
+                    589.695434570312,
+                    488.463836669922
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -4729,8 +4652,8 @@
             },
             {
                 "coordinates": [
-                    472.51959228515602,
-                    418.63177490234398
+                    472.519592285156,
+                    418.631774902344
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -4754,8 +4677,8 @@
             },
             {
                 "coordinates": [
-                    399.72625732421898,
-                    423.36614990234398
+                    399.726257324219,
+                    423.366149902344
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -4779,8 +4702,8 @@
             },
             {
                 "coordinates": [
-                    657.16033935546898,
-                    831.70617675781295
+                    657.160339355469,
+                    831.706176757813
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -4804,8 +4727,8 @@
             },
             {
                 "coordinates": [
-                    461.86724853515602,
-                    857.74530029296898
+                    461.867248535156,
+                    857.745300292969
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -4830,7 +4753,7 @@
             {
                 "coordinates": [
                     630.26318359375,
-                    493.78164672851602
+                    493.781646728516
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -4854,8 +4777,8 @@
             },
             {
                 "coordinates": [
-                    747.08486938476608,
-                    500.68151855468801
+                    747.0848693847661,
+                    500.681518554688
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -4880,7 +4803,7 @@
             {
                 "coordinates": [
                     506.631591796875,
-                    903.04479980468795
+                    903.044799804688
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -4904,8 +4827,8 @@
             },
             {
                 "coordinates": [
-                    807.13592529296898,
-                    683.14813232421898
+                    807.135925292969,
+                    683.148132324219
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -4930,7 +4853,7 @@
             {
                 "coordinates": [
                     496.5048828125,
-                    878.43939208984398
+                    878.439392089844
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -4954,8 +4877,8 @@
             },
             {
                 "coordinates": [
-                    547.19635009765602,
-                    435.36904907226602
+                    547.196350097656,
+                    435.369049072266
                 ],
                 "attr": {
                     "category": "Facilities",
@@ -4985,8 +4908,8 @@
         "points": [
             {
                 "coordinates": [
-                    577.32049560546898,
-                    385.32601928710898
+                    577.320495605469,
+                    385.326019287109
                 ],
                 "attr": {
                     "category": "Amenities",
@@ -5036,8 +4959,8 @@
             },
             {
                 "coordinates": [
-                    894.21081542968705,
-                    649.20367431640602
+                    894.210815429687,
+                    649.203674316406
                 ],
                 "attr": {
                     "category": "Amenities",
@@ -5062,7 +4985,7 @@
             {
                 "coordinates": [
                     249.41711425781205,
-                    965.23742675781295
+                    965.237426757813
                 ],
                 "attr": {
                     "category": "Amenities",
@@ -5086,8 +5009,8 @@
             },
             {
                 "coordinates": [
-                    462.89471435546898,
-                    895.19488525390602
+                    462.894714355469,
+                    895.194885253906
                 ],
                 "attr": {
                     "category": "Amenities",
@@ -5111,8 +5034,8 @@
             },
             {
                 "coordinates": [
-                    772.67691040039108,
-                    969.87097167968795
+                    772.6769104003911,
+                    969.870971679688
                 ],
                 "attr": {
                     "category": "Amenities",
@@ -5136,7 +5059,7 @@
             },
             {
                 "coordinates": [
-                    907.54556274414108,
+                    907.5455627441411,
                     1007.42218017578
                 ],
                 "attr": {
@@ -5161,8 +5084,8 @@
             },
             {
                 "coordinates": [
-                    950.02078247070301,
-                    691.38568115234398
+                    950.020782470703,
+                    691.385681152344
                 ],
                 "attr": {
                     "category": "Amenities",
@@ -5186,8 +5109,8 @@
             },
             {
                 "coordinates": [
-                    957.10760498046898,
-                    326.26031494140602
+                    957.107604980469,
+                    326.260314941406
                 ],
                 "attr": {
                     "category": "Amenities",
@@ -5211,8 +5134,8 @@
             },
             {
                 "coordinates": [
-                    821.16937255859398,
-                    188.44952392578099
+                    821.169372558594,
+                    188.449523925781
                 ],
                 "attr": {
                     "category": "Amenities",
@@ -5237,7 +5160,7 @@
             {
                 "coordinates": [
                     384.73718261718705,
-                    249.41148376464801
+                    249.411483764648
                 ],
                 "attr": {
                     "category": "Amenities",
@@ -5311,8 +5234,8 @@
             },
             {
                 "coordinates": [
-                    977.36630249023403,
-                    375.89419555664102
+                    977.366302490234,
+                    375.894195556641
                 ],
                 "attr": {
                     "category": "Amenities",
@@ -5344,8 +5267,8 @@
         "points": [
             {
                 "coordinates": [
-                    419.37261962890602,
-                    442.96127319335898
+                    419.372619628906,
+                    442.961273193359
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5367,8 +5290,8 @@
             },
             {
                 "coordinates": [
-                    375.92547607421898,
-                    463.78726196289102
+                    375.925476074219,
+                    463.787261962891
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5391,7 +5314,7 @@
             {
                 "coordinates": [
                     434.06579589843705,
-                    454.97897338867199
+                    454.978973388672
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5414,7 +5337,7 @@
             {
                 "coordinates": [
                     451.16345214843705,
-                    472.07659912109398
+                    472.076599121094
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5437,7 +5360,7 @@
             {
                 "coordinates": [
                     470.53857421875,
-                    484.53842163085898
+                    484.538421630859
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5460,7 +5383,7 @@
             {
                 "coordinates": [
                     363.7392578125,
-                    473.26028442382801
+                    473.260284423828
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5482,8 +5405,8 @@
             },
             {
                 "coordinates": [
-                    744.10119628906205,
-                    595.13000488281295
+                    744.101196289062,
+                    595.130004882813
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5506,7 +5429,7 @@
             {
                 "coordinates": [
                     348.233154296875,
-                    484.55648803710898
+                    484.556488037109
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5528,8 +5451,8 @@
             },
             {
                 "coordinates": [
-                    727.42105102539108,
-                    602.85369873046898
+                    727.4210510253911,
+                    602.853698730469
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5552,7 +5475,7 @@
             {
                 "coordinates": [
                     392.54089355468705,
-                    449.94110107421898
+                    449.941101074219
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5575,7 +5498,7 @@
             {
                 "coordinates": [
                     429.79138183593705,
-                    482.05020141601602
+                    482.050201416016
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5597,7 +5520,7 @@
             },
             {
                 "coordinates": [
-                    747.96572875976608,
+                    747.9657287597661,
                     615.740966796875
                 ],
                 "attr": {
@@ -5644,7 +5567,7 @@
             {
                 "coordinates": [
                     701.426513671875,
-                    547.23748779296898
+                    547.237487792969
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5666,8 +5589,8 @@
             },
             {
                 "coordinates": [
-                    712.30792236328102,
-                    564.76867675781295
+                    712.307922363281,
+                    564.768676757813
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5712,8 +5635,8 @@
             },
             {
                 "coordinates": [
-                    569.33172607421898,
-                    478.70382690429699
+                    569.331726074219,
+                    478.703826904297
                 ],
                 "attr": {
                     "category": "Ticket Counters",
@@ -5735,7 +5658,7 @@
             },
             {
                 "coordinates": [
-                    621.62927246093705,
+                    621.629272460937,
                     480.13525390625
                 ],
                 "attr": {
@@ -5782,7 +5705,7 @@
             {
                 "coordinates": [
                     692.358642578125,
-                    524.26556396484398
+                    524.265563964844
                 ],
                 "attr": {
                     "category": "Ticket Counters",

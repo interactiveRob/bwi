@@ -128,10 +128,11 @@
 	// }
 
 	date_default_timezone_set("America/New_York");
-	$output["updated"] = "*as of <time>" . date("g:ia") . "</time>";
+	$output["updated"] = "as of <time>" . date("g:ia") . "</time>";
 	$output["lots"] = $json_array;
     
-    echo "update parking-availability";
+  echo "Successfully updated parking-availability.json " . $output["updated"];
+
 	file_put_contents($root."cache/parking-availability.json", json_encode($output, JSON_PRETTY_PRINT |  JSON_UNESCAPED_SLASHES));
 	return;
 

@@ -1,5 +1,5 @@
 <?php
-	include "four-winds.php";
+	include_once "four-winds.php";
 
 	$root = str_replace("cron/gate-data.php", "", __FILE__);
 	$cache_file = $root."cache/gate-data.json";
@@ -16,5 +16,8 @@
 			"coordinates" => [610 - ($item["y"] - 610), $item["x"]],
 		];
 	}
-	echo "<br>update gate-data";
+
+  echo "<br>";
+  echo "Successfully updated gate-data.json as of <time>" . date("g:ia") . "</time>";
+
 	file_put_contents($cache_file, json_encode($points, JSON_PRETTY_PRINT |  JSON_UNESCAPED_SLASHES));

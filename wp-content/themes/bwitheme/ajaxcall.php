@@ -1,5 +1,6 @@
 <?php
     $themeRootDirectory = __DIR__;
+    $themeRootURI = '/wp-content/themes/bwitheme/';
 
     $action  = '';
     if(isset($_GET['action']) && $_GET['action'] != ""){
@@ -13,7 +14,8 @@
              $hudArrivalDeparture = isset($_POST['hud_arrival_depature']) ? $_POST['hud_arrival_depature'] : '' ;  
             
              $filePath = $themeRootDirectory.'/cache/flight-data.json'.'?' .uniqid().'1';
-             $data = file_get_contents($themeRootDirectory.'/cache/flight-data.json'.'?' .uniqid().'1');   //use unique id to ignore cached file
+             
+             $data = file_get_contents($themeRootDirectory.'/cache/flight-data.json');   //use unique id to ignore cached file
              $flights = json_decode($data); 
    
             $flightsArrivals = array();
@@ -52,7 +54,7 @@
                                 $data['Arrivals'] .= '<td class="schedule_table_item schedule_table_item_key">'.$flight->actual_time.'</td>';
                                 $data['Arrivals'] .= '<td class="schedule_table_item schedule_table_item_key">'.$flight->city.'</td>';
                                 $data['Arrivals'] .=  '<td class="schedule_table_item"><a class="schedule_table_item_link" href="'.$siteRootDir.'/wayfinding?airline='.$flight->airline_code.'">';
-                                $data['Arrivals'] .=  '<img src="'.$themeRootDirectory.'/assets/custom/images/'.$flight->airline_logo_gif.'.gif" alt="Southwest logo">';
+                                $data['Arrivals'] .=  '<img src="'.$themeRootURI.'/assets/custom/images/'.$flight->airline_logo_gif.'.gif" alt="Airline logo">';
                                 $data['Arrivals'] .=  '<span class="schedule_table_item_key">'.$flight->airline.'</span>';
                                 $data['Arrivals'] .=  '</a></td>';
                                 $data['Arrivals'] .= '<td class="schedule_table_item">';
@@ -86,7 +88,7 @@
                                     $data['Arrivals'] .= '<td class="schedule_table_item schedule_table_item_key">'.$flight->actual_time.'</td>';
                                     $data['Arrivals'] .= '<td class="schedule_table_item schedule_table_item_key">'.$flight->city.'</td>';
                                     $data['Arrivals'] .=  '<td class="schedule_table_item"><a class="schedule_table_item_link" href="'.$siteRootDir.'/wayfinding?airline='.$flight->airline_code.'">';
-                                    $data['Arrivals'] .=  '<img src="'.$themeRootDirectory.'/assets/custom/images/'.$flight->airline_logo_gif.'.gif" alt="Southwest logo">';
+                                    $data['Arrivals'] .=  '<img src="'.$themeRootURI.'/assets/custom/images/'.$flight->airline_logo_gif.'.gif" alt="Airline logo">';
                                     $data['Arrivals'] .=  '<span class="schedule_table_item_key">'.$flight->airline.'</span>';
                                     $data['Arrivals'] .=  '</a></td>';
                                     $data['Arrivals'] .= '<td class="schedule_table_item">';
@@ -119,7 +121,7 @@
                                 $data['Arrivals'] .= '<td class="schedule_table_item schedule_table_item_key">'.$flight->actual_time.'</td>';
                                 $data['Arrivals'] .= '<td class="schedule_table_item schedule_table_item_key">'.$flight->city.'</td>';
                                 $data['Arrivals'] .=  '<td class="schedule_table_item"><a class="schedule_table_item_link" href="'.$siteRootDir.'/wayfinding?airline='.$flight->airline_code.'">';
-                                $data['Arrivals'] .=  '<img src="'.$themeRootDirectory.'/assets/custom/images/'.$flight->airline_logo_gif.'.gif" alt="Southwest logo">';
+                                $data['Arrivals'] .=  '<img src="'.$themeRootURI.'/assets/custom/images/'.$flight->airline_logo_gif.'.gif" alt="Airline logo">';
                                 $data['Arrivals'] .=  '<span class="schedule_table_item_key">'.$flight->airline.'</span>';
                                 $data['Arrivals'] .=  '</a></td>';
                                 $data['Arrivals'] .= '<td class="schedule_table_item">';
@@ -154,7 +156,7 @@
                                 $data['Departures'] .= '<td class="schedule_table_item schedule_table_item_key">'.$flight->actual_time.'</td>';
                                 $data['Departures'] .= '<td class="schedule_table_item schedule_table_item_key">'.$flight->city.'</td>';
                                 $data['Departures'] .=  '<td class="schedule_table_item"><a class="schedule_table_item_link" href="'.$siteRootDir.'/wayfinding?airline='.$flight->airline_code.'">';
-                                $data['Departures'] .=  '<img src="'.$themeRootDirectory.'/assets/custom/images/'.$flight->airline_logo_gif.'.gif" alt="Southwest logo">';
+                                $data['Departures'] .=  '<img src="'.$themeRootURI.'/assets/custom/images/'.$flight->airline_logo_gif.'.gif" alt="Airline logo">';
                                 $data['Departures'] .=  '<span class="schedule_table_item_key">'.$flight->airline.'</span>';
                                 $data['Departures'] .=  '</a></td>';
                                 $data['Departures'] .= '<td class="schedule_table_item">';
@@ -189,7 +191,7 @@
                                     $data['Departures'] .= '<td class="schedule_table_item schedule_table_item_key">'.$flight->actual_time.'</td>';
                                     $data['Departures'] .= '<td class="schedule_table_item schedule_table_item_key">'.$flight->city.'</td>';
                                     $data['Departures'] .=  '<td class="schedule_table_item"><a class="schedule_table_item_link" href="'.$siteRootDir.'/wayfinding?airline='.$flight->airline_code.'">';
-                                    $data['Departures'] .=  '<img src="'.$themeRootDirectory.'/assets/custom/images/'.$flight->airline_logo_gif.'.gif" alt="Southwest logo">';
+                                    $data['Departures'] .=  '<img src="'.$themeRootURI.'/assets/custom/images/'.$flight->airline_logo_gif.'.gif" alt="Airline logo">';
                                     $data['Departures'] .=  '<span class="schedule_table_item_key">'.$flight->airline.'</span>';
                                     $data['Departures'] .=  '</a></td>';
                                     $data['Departures'] .= '<td class="schedule_table_item">';
@@ -221,7 +223,7 @@
                                 $data['Departures'] .= '<td class="schedule_table_item schedule_table_item_key">'.$flight->actual_time.'</td>';
                                 $data['Departures'] .= '<td class="schedule_table_item schedule_table_item_key">'.$flight->city.'</td>';
                                 $data['Departures'] .=  '<td class="schedule_table_item"><a class="schedule_table_item_link" href="'.$siteRootDir.'/wayfinding?airline='.$flight->airline_code.'">';
-                                $data['Departures'] .=  '<img src="'.$themeRootDirectory.'/assets/custom/images/'.$flight->airline_logo_gif.'.gif" alt="Southwest logo">';
+                                $data['Departures'] .=  '<img src="'.$themeRootURI.'/assets/custom/images/'.$flight->airline_logo_gif.'.gif" alt="Airline logo">';
                                 $data['Departures'] .=  '<span class="schedule_table_item_key">'.$flight->airline.'</span>';
                                 $data['Departures'] .=  '</a></td>';
                                 $data['Departures'] .= '<td class="schedule_table_item">';

@@ -30,7 +30,7 @@
 
 	$output = [];
 	date_default_timezone_set("America/New_York");
-	$output["updated"] = "*as of " . date("g:ia");
+	$output["updated"] = "as of " . date("g:ia");
 	$output["origins"] = $cache_data;
 
 	if (!$failures) {

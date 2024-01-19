@@ -37,7 +37,7 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
 
 <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>?ver=2.0.0">
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

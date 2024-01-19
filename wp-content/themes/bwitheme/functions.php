@@ -34,10 +34,8 @@ function theme_enqueue_styles() {
 wp_enqueue_style( 'custom-svg-style', get_stylesheet_directory_uri() . '/assets/bwiairport_format.css' , null, '1.0.0');
 
 //wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/assets/custom.css' );
-wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/assets/custom.css',false,'1.0.0');
-
-
-wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/assets/innerpage.css', null, '1.0.0');
+wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/assets/custom.css', [], '1.0.0');
+//wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/assets/innerpage.css', [], '1.0.0');
 
 //wp_register_script( 'custom-script', get_stylesheet_directory_uri() . '/assets/custom.js' );
 wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/1site_custom.js', array ( 'jquery' ), false);
@@ -65,11 +63,9 @@ add_action('wp_enqueue_scripts', function(){
 }, 10);
 
 // Remove WP Version From Styles    
-
 add_filter( 'style_loader_src', 'sdt_remove_ver_css_js', 9999 );
 
-// Remove WP Version From Scripts
-
+// // Remove WP Version From Scripts
 add_filter( 'script_loader_src', 'sdt_remove_ver_css_js', 9999 );
 
 
@@ -77,14 +73,15 @@ add_filter( 'script_loader_src', 'sdt_remove_ver_css_js', 9999 );
 // Function to remove version numbers
 
 function sdt_remove_ver_css_js( $src ) {
-
-    if ( strpos( $src, 'ver=' ) )
-
+    global $wp_version;
+    
+    if ( strpos( $src, "ver=$wp_version" ) ){
         $src = remove_query_arg( 'ver', $src );
-
+        return $src;
+    }
+    
     return $src;
-
-}
+}   
 
 
 
@@ -873,3 +870,22 @@ add_filter( 'mce_external_plugins', 'add_the_table_plugin' );
 //     }, $files);
 // }
 // BwiGetCrossenvParkingData();
+
+
+/**
+ * There's a custom cron event that's been scheduled (via WP CLI)
+ * called 'gnpwdr_custom_cron_job'. It will look for this function
+ * and run it when the event is triggered. It runs every minute
+ * via the 'every-minute' custom schedule. 
+ * 
+ * Added by Mike Brenner (GNPWDR) on Jan 16, 2024
+ */
+add_action('gnpwdr_custom_cron_job', 'run_gnpwdr_custom_cron_job');
+function run_gnpwdr_custom_cron_job() {
+  include(get_template_directory() . '/cron/parking-availability.php');
+  include(get_template_directory() . '/cron/wait-times.php');
+  include(get_template_directory() . '/cron/flight-data.php');
+  include(get_template_directory() . '/cron/map-data.php');
+  include(get_template_directory() . '/cron/gate-data.php');
+  include(get_template_directory() . '/cron/google-maps-times.php');
+}

@@ -206,7 +206,7 @@ $long_term_parking_b = $parking_op['lots']['Long-Term B'];
 					<div class="parking_item_details">
 						<h4 class="parking_item_type">Long Term Parking B</h4>
 					</div>
-                    <h5 class="parking_item_spaces"><?php print_r($long_term_parking_a['available']); ?> of <?= $long_term_parking_a['total'] ?> spaces available</h5>
+                    <h5 class="parking_item_spaces"><?php print_r($long_term_parking_b['available']); ?> of <?= $long_term_parking_b['total'] ?> spaces available</h5>
 					<h5 class="parking_item_cost"><?php print_r($long_term_parking_b1['parking_cost']); ?></h5>
 				</header>
 				<div class="parking_item_body">
